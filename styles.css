@@ -1,0 +1,85 @@
+img {
+  width: 300px;
+  height: 301px;
+  background-position: -25px -20px;  
+  border-radius: 1000%;
+  background-size: cover;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+
+.insta {
+    position: relative;
+    width: 100px;
+  height: 100px;
+  
+    }
+.instagram{
+    display:block ;
+    height:100px;
+    width:100px;
+    }
+    
+.overlay{
+    position: absolute;
+    transition: all .3s ease;
+    opacity: 0;
+    background-image:url("http://25.media.tumblr.com/7de634d403918136e6eb71a02f721792/tumblr_myhv24ir8H1s60oo7o1_500.gif");
+    background-size:cover;
+    }
+    
+.insta:hover .overlay {
+    opacity: 1;
+    }
+    
+.text {
+    color: white;
+    font-family:Times New Roman;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 15px;
+    
+    
+    }
+    
+.overlayleft{
+    height: 100%;
+    width:0;
+    top:0;
+    left: 0;
+    
+    }
+
+.insta:hover .overlayleft {
+    width: 100%;
+    }
+h1{
+    text-align:center;
+    background-color:white;
+  }
+
+body{
+    background-image: url("https://thumbs.gfycat.com/CreativeOblongDamselfly-small.gif");
+    background-size: 100% 100%;
+    color:white;
+    text-align:center;
+    }
+    
+.insta {
+  float: left;
+  width: 30.33%;
+  padding: 5px;
+}
+
+
+h1{
+    color:black;
+    font-family: 'Muli';
+    }
+    
